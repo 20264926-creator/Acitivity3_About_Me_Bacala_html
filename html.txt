@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333333;
+            padding: 20px;
+        }
+
+        /* Round Image styling */
+        .profile-img {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 20px 0;
+        }
+
+        /* Visible Navigation Links */
+        .nav-links {
+            margin-top: 30px;
+        }
+
+        .nav-links a {
+            display: inline-block;
+            background-color: #0056b3;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+
+        .nav-links a:hover {
+            background-color: #003d80;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>All About Me</h1>
+
+    <!-- Round Image (500x500 dimensions) -->
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+
+    <!-- Paragraph 1: Basic Info -->
+    <p>My name is Mikaella Bacala, and I am currently studying at the University of Baguio. I live in Baguio City and am pursuing my degree in Information Technology.</p>
+
+    <!-- Paragraph 2: Interests -->
+    <p>I have a strong interest in user interface design, web development, and exploring modern hardware specs for gaming and productivity performance.</p>
+
+    <!-- Paragraph 3: Hobbies -->
+    <p>In my free time, I enjoy working on design projects, customizing team sports apparel, and learning new programming techniques to expand my skill set.</p>
+
+    <!-- Navigation Controls -->
+    <div class="nav-links">
+        <a href="https://20264926-creator.github.io/Activity2_Home_Bacala/AboutME.html">&laquo; Back to Activity 2</a>
+        <a href="#activity4">Next to Activity 4 &raquo;</a>
+    </div>
+
+</body>
+</html>
